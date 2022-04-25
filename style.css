@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: rgb(236, 229, 236);
+}
+
+.background{
+    background-image: url(images/coder.jpeg);
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-title{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    /* padding: 50px; */
+    font-variant: small-caps;
+    font-size: 100px;
+    /* font-family: fantasy; */
+    letter-spacing: 20px
+}
+.page{
+    font-size: 50px;
+    color:purple;
+    letter-spacing: 10px
+
+}
+.courses{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5%;
+    color: purple;
+    background-color: grey;
+}
+
+.Pallarax{
+    /* width:max-content; */
+    margin: 5px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+    text-align: center;
+    border-image: 70%; 
+}
+.Pallarax:hover{
+    box-shadow: 0 0 10px 3px #184d47;
+
+}
+.item-image-size{
+    height: 200px;
+    width:400px;
+    border-radius: 0 0 50px 50px;
+}
+
+.title{
+    font-size: 30px;
+    padding: 5px;
+    /* font-variant: small-caps; */
+    font-family: fantasy;
+    color:purple;
+} 
+
+.about{
+font-size: 20px;
+text-align: center;
+color: grey;
+
+
+}
+.About{
+    font-size: 20px;
+    border-radius: 0 0 50px 50px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:slategray;
+}
+
+.quates{
+    font-style: italic;
+    color:black;
+    font-size:medium;
+    text-align: right;   
+}
+hr{
+    color: purple;
+}
